@@ -195,7 +195,7 @@ class SoundController {
 
   // Kid friendly speech encouragement
   cheer(message: string) {
-    if (!this.voiceEnabled) return;
+    return; // voice off
     if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
       try {
         window.speechSynthesis.cancel();
