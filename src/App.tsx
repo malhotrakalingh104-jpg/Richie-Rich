@@ -48,12 +48,11 @@ export default function App() {
 
   // Sync audio mute state
   const handleToggleSound = () => {
-    const next = !soundOn;
-    setSoundOn(next);
-    sound.enabled = next;
-    sound.voiceEnabled = next;
-    if (next) sound.playCatch();
-  };
+  const next = !soundOn;
+  setSoundOn(next);
+  sound.enabled = false; // mute all
+  sound.voiceEnabled = false; // NO RICHIE VOICE
+};
 
   // Earn diamonds handler
   const handleEarnDiamonds = (count: number) => {
