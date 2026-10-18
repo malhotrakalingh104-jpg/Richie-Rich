@@ -28,3 +28,20 @@
   left: 50%;
   top: 50%;
 }
+
+/* Richie image fix - no scroll repeat */
+.only-show-on-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  width: 100%;
+}
+
+.only-show-on-top img {
+  width: 200px !important;
+  height: auto !important;
+  object-fit: contain;
+}
