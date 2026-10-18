@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="50%" stop-color="#FBBF24" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+    <linearGradient id="diamondGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="50%" stop-color="#E0F2FE" />
+      <stop offset="100%" stop-color="#38BDF8" />
+    </linearGradient>
+  </defs>
+  <!-- Background with safe zone padding -->
+  <rect width="512" height="512" rx="128" fill="url(#bgGrad)" />
+  <circle cx="256" cy="256" r="220" fill="#FEF3C7" stroke="#F59E0B" stroke-width="8" />
+
+  <!-- Sparkling Brilliant Diamond -->
+  <g transform="translate(256, 240) scale(2.8) translate(-50, -50)">
+    <polygon points="50,12 85,38 72,88 28,88 15,38" fill="#E0F2FE" stroke="#0284C7" stroke-width="3" />
+    <polygon points="50,12 85,38 65,38 50,12" fill="#BAE6FD" />
+    <polygon points="50,12 15,38 35,38 50,12" fill="#BAE6FD" />
+    <polygon points="35,38 65,38 50,88 35,38" fill="#FFFFFF" />
+    <polygon points="15,38 35,38 28,88" fill="#7DD3FC" />
+    <polygon points="85,38 65,38 72,88" fill="#7DD3FC" />
+    <!-- Sparkle star -->
+    <polygon points="40,26 43,32 49,35 43,38 40,44 37,38 31,35 37,32" fill="#FFFFFF" />
+  </g>
+
+  <!-- Bowtie emblem at bottom -->
+  <g transform="translate(256, 400)">
+    <polygon points="-40,-18 -40,18 0,4 0,-4" fill="#EF4444" stroke="#B91C1C" stroke-width="3" />
+    <polygon points="40,-18 40,18 0,4 0,-4" fill="#EF4444" stroke="#B91C1C" stroke-width="3" />
+    <ellipse cx="0" cy="0" rx="12" ry="10" fill="#FBBF24" stroke="#B45309" stroke-width="3" />
+  </g>
+</svg>

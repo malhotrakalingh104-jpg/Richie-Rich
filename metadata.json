@@ -1,0 +1,6 @@
+{
+  "name": "Richie's Diamond Vault: Kids Gem Adventure",
+  "description": "A delightful, kid-friendly Richie Rich style arcade with sparkling diamond popping, jewel catching, and mansion treasure games.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
