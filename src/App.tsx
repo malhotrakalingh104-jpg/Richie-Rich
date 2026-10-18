@@ -186,11 +186,13 @@ export default function App() {
       </main>
     {/* Richie Rich Diamond Hero - NEW CHARACTER */}
 <div className="flex flex-col items-center justify-center py-8">
+  <div className="only-show-on-top">
   <img 
     src="/richie.png" 
     alt="Richie Rich Diamond" 
     className="w-56 h-56 md:w-72 md:h-72 object-contain drop-shadow-2xl"
   />
+    </div>
   <p className="mt-4 text-xl font-bold text-amber-900 animate-pulse">
     💎 Welcome to My Diamond Vault! 💎
   </p>
